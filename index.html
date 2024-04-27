@@ -1,19 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Image Display</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Racooon :3</title>
     <style>
-        img {
-            display: block;
-            margin: auto;
-        }
+      img {
+        top: 50%;
+        max-width: 100%;
+        display: block;
+        margin: auto;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #6b6767;
+      }
+
+      .centered-element {
+        margin: 0;
+        position: absolute;
+        top: 35%;
+        transform: translateY(-50%);
+      }
+
+      .text {
+        padding-top: 2%;
+        text-align: center;
+        font: 1.2rem "Fira Sans", sans-serif;
+        color: white;
+      }
+
+      .text2 {
+        text-align: center;
+        font: 1.2rem "Fira Sans", sans-serif;
+        color: white;
+      }
+
+      .text3 {
+        padding-bottom: 3%;
+        text-align: center;
+        font: 1.2rem "Fira Sans", sans-serif;
+        color: #424040; 
+      }
     </style>
-</head>
-<body>
-    <h1>Random Image</h1>
-    <img id="randomImage" src="" alt="Random Image">
+  </head>
+  <body>
+    <div class="centered-element">
+    <img id="randomImage" src="" alt="Random Image" />
+    <p class = "text"> this cute little fella wants to wish you a</p>
+    <p class = "text2"> happy birthday :3 </p>
+    <p class = "text3"> (reload page for more cuteness) </p>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

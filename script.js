@@ -3,7 +3,7 @@ function randomIntFromInterval(min, max) {
   }
 
 window.onload = function() {
-    const image_id = randomIntFromInterval(1, 3);
+    const image_id = randomIntFromInterval(1, 59);
 
     var img = document.getElementById("randomImage");
 
